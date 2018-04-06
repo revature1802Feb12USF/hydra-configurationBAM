@@ -1,8 +1,27 @@
-server:
-  port: 0
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+      
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+    properties:
+      hibernate:
+        format-sql: false
+  h2:
+    console:
+      enabled: true
+      path: /h2
+#Actuator needs update for Spring Boot 2.0
+
+endpoints:
+  actuator:
+    enabled: true
+    sensitive: false
+  sensitive: false
