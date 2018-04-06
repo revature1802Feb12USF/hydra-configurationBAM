@@ -1,5 +1,5 @@
 # hydra-configuration
-Configurations for the Hydra Config Server.
+Configurations for the Hydra Config Server
 
 
 ## Configuration Design
