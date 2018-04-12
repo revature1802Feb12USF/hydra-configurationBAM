@@ -6,3 +6,9 @@ spring:
     url: jdbc:h2:mem:testTopic
     username: roll
     password: tide
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: https://hydra-discovery-service.cfapps.io
