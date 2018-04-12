@@ -12,4 +12,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: hydra-discovery-service.cfapps.io
+      defaultZone: https://hydra-discovery-service.cfapps.io
