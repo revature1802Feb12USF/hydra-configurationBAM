@@ -51,7 +51,7 @@ spring:
       uri: https://hydra-config-service.cfapps.io/
 
 server:
-  port: 0
+  port: 80
 
 eureka:
   client:
